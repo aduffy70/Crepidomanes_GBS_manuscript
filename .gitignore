@@ -1,0 +1,5 @@
+.RData
+*.Rout
+Builds/
+Figures/R_Plots/
+Figures/.Rhistory
