@@ -9,3 +9,13 @@ __Figure 1__ - _Crepidomanes intricatum_ gametophytes. a) A small colony includi
 __Figure 2__ - Mean clusters per sample for _Vandenboschiana boschiana_ sporophytes and gametophytes at a range of cluster threshold values.
 
 ![](Figures/Clusters_by_threshold.png)
+
+__Figure XX__ - Locations and species suspected by collector of _Crepidomanes intricatum_, _Didymoglossum petersii_, and _Vandenboschia boschiana_ samples.
+
+![](Figures/US_map-suspected_species.png)
+![](Figures/IL_map-suspected_species.png)
+
+__Figure XX__ - Locations and species assigned based on this study of _Crepidomanes intricatum_, _Didymoglossum petersii_, _Vandenboschia boschiana_, and potentially mixed samples.
+
+![](Figures/US_map-assigned_species.png)
+![](Figures/IL_map-assigned_species.png)
