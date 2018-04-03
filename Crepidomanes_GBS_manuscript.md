@@ -31,17 +31,28 @@ METHODS
 
 ## Sampling
 
-51 suspected C. intricatum, D. petersii, or V. boschiana gametophyte samples and three D.petersii or V. boschiana sporophyte samples collected between 1965 and 2007 were selected to represent much of the known range of C. intricatum. Samples included populations from previously glaciated areas, from multiple sites in some geographic regions, and from multiple patches in some sites. In addition, multiple DNA samples were taken from some collections to look for variation within presumed clones (Table 1, Figure 2).
+50 suspected C. intricatum, D. petersii, or V. boschiana gametophyte samples, one D. petersii  sporophyte sample, and three V. boschiana sporophyte samples collected between 1965 and 2007 were selected to represent much of the known range of C. intricatum. Samples included populations from previously glaciated areas, from multiple sites within some geographic regions, and from multiple patches within some sites. In addition, multiple DNA samples were taken from some collections to look for variation within presumed clones (Table 1, Figure 2).
 
 ## DNA extraction
-
-
+Because of the small size of individual gametophytes and their tangled filamentous growth, each sample represents many separate individuals (likely clones) growing in close contact with each other (<1 square-cm of silica-dried gametophyte mat). Bryophytes, lichen, sand, and other contaminants were manually separated from the gametophyte tissue under 20X magnification. DNA was extracted from 2--70 mg of cleaned tissue using a CTAB protocol [@Doyle1987-dp] with the following modifications to the cell disruption process. Samples were ground in CTAB buffer in 1.5mL tubes using a pestle attached to an electric drill on its slowest speed setting. While grinding, the tube was bathed in ice and pressure on the drill was applied in 1 second pulses to reduce heating the sample. For samples with less than 10 mg of tissue, 10--50 mg of autoclaved sand was added to improve grinding. Each sample was ground in three rounds of approximately 100 pulses, with 100 uL of CTAB buffer in the first round and an additional 200uL added in subsequent rounds (500 uL total). After extraction the DNA was quantified using a Qubit fluorometer (Invitrogen, Carlsbad, California, USA).
 
 ## Library preparation and sequencing
-
+The GBS library was prepared according to an established double-digest restriction site-assiciated DNA sequencing (ddRADseq) protocol [@Gompert2012-ir; @Parchman2012-qm] using restriction enzymes EcoR1 and Mse1. PCR amplification steps were performed using iproof high-fidelity DNA polymerase (New England Biolabs) to minimize PCR error. To maximize the number of homogeneous loci acrossed samples, pooled samples were size selected using Blue Pippen (Sage Science, Beverly, Massachusetts, USA), retaining loci between 250--350 bp. Samples were run on a single lane of Illumina HiSeq with 100 bp single-end sequencing at the University of Utah DNA Sequencing Core facility.
 
 
 ## Identifying loci and calling genotypes
+Raw illumina reads were inspected for quality using fastQC [@Andrews2010-yx] and analyzed with ipyRAD v.0.7.1 [@Eaton2014-rr] using default settings except as noted below. Reads were sorted by barcode allowing up to two mismatched bases in the barcode sequence, filtered to remove low quality bases and reads with excessive low quality bases, and trimmed to remove Illumina adapter sequences and restriction enzyme overhangs.
+
+To determine the appropriate clustering threshold for de novo assembly, clustering was performed over a range of threshold values from 0.95 down to 0.80. Higher values risk splitting alleles into separate clusters, whereas lower values risk combining paralogs into single clusters. At higher threshold values the average number of clusters in V. boschiana sporophyte samples is higher than in suspected V. boschiana gametophyte samples, as would be expected if the ploidy level of the sporophytes is greater than the gametophytes. As the threshold values decrease the average number of clusters in sporophyte and gametophyte samples become similar, suggesting that multiple alleles in the sporophyte samples are being combined into loci. A threshold value of 0.85 was selected because the number of clusters in V. boschiana sporophyte and gametophyte samples are similar (Figure 2).
+
+Because allozyme studies suggest that C. intricatum gametophytes are diploid [@Farrar1985-ht], samples were treated as diploid for estimating heterozygosity and error rates, and genotype calling in ipyRAD.
+
+When ipyRAD generates ".stru" output files (structure file format with 1 randomly selected SNP per locus), some SNPs may not have the requested minimum sample coverage even though the locus they are within does, resulting in higher than expected levels of missing data. Also, because the SNP from each locus is selected randomly at the time the output file is generated, multiple ipyRAD datasets from runs with increasing minimum sample coverage values will have SNPs that are not subsets of each other. To ensure that all the analyses in this study were based on subsets of the same data, we used ipyRAD to generate a dataset of loci with coverage in six samples and filtered that dataset to the desired minimum sample coverage using a custom python script.
+
+To group samples by species, we generated three datasets including all 54 samples and SNPs present in >33%, >50%, and >66% of loci. Each dataset was analyzed using Structure [@pritchard2000-ek] with 3 groups to determine which samples were consistently assigned to groups with the V. boschiana sporophytes or D. petersii sporophyte, and which were consistently assigned to a group without sporophytes.
+
+
+
   * ipyrad analysis
     - read clustering level selection
     - SNP detection and filtering)
