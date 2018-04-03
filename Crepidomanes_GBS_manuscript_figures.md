@@ -6,4 +6,6 @@ __Figure 1__ - _Crepidomanes intricatum_ gametophytes. a) A small colony includi
 ![](Figures/Crepidomanes-clone_with_gemmae-smaller.jpg)
 ![](Figures/Crepidomanes-colony_in_culture-smaller.jpg)
 
-__Figure 2__ - Blah blah.
+__Figure 2__ - Mean clusters per sample for _Vandenboschiana boschiana_ sporophytes and gametophytes at a range of cluster threshold values.
+
+![](Figures/Clusters_by_threshold.png)
