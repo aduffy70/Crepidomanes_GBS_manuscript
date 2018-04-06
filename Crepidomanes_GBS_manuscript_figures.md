@@ -19,3 +19,5 @@ __Figure XX__ - Locations and species assigned based on this study of _Crepidoma
 
 ![](Figures/US_map-assigned_species.png)
 ![](Figures/IL_map-assigned_species.png)
+
+__Figure XX - Probabilites of assignment to the cluster without gametophytes in Structure runs using the All-33, All-50, and All-66 datasets, and species assignments based on these results. Error bars show the combined confidence intervals from all three runs.
