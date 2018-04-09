@@ -31,3 +31,15 @@ __Figure XX__ - Neighbor-joining Euclidean distance trees using the All-33 datas
 
 ![](Figures/NJ_tree-crep_noncrep.png)
 ![](Figures/NJ_tree-by_species.png)
+
+__Figure XX__ - Results of Structure analyses for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, with and without non-_Crepidomanes_ loci. Results shown are from the best of 10 runs using the optimal number of clusters for each dataset.
+
+![](Figures/Structure_plot-All_unfiltered-K5.png)
+![](Figures/Structure_plot-All_filtered-K6.png)
+
+__Figure XX__ - Results of Structure analyses for the datasets including only samples assigned as _C. intricatum_, with and without non-_Crepidomanes_ loci. Results shown are from the best of 10 runs using the optimal number of clusters for each dataset.
+
+![](Figures/Structure_plot-Crep_unfiltered-K4.png)
+![](Figures/Structure_plot-Crep_unfiltered-K8.png)
+![](Figures/Structure_plot-Crep_filtered-K4.png)
+![](Figures/Structure_plot-Crep_filtered-K8.png)
