@@ -43,3 +43,7 @@ __Figure XX__ - Results of Structure analyses for the datasets including only sa
 ![](Figures/Structure_plot-Crep_unfiltered-K8.png)
 ![](Figures/Structure_plot-Crep_filtered-K4.png)
 ![](Figures/Structure_plot-Crep_filtered-K8.png)
+
+__Figure XX__ - K-means analysis of subset of the data with only _C. intricatum_ samples and with non-_Crepidomanes_ loci removed. 20 replicate Structure runs with number of clusters (K) ranging from 1 to 15.
+
+![](Figures/Kmeans-Crep_filtered.png)  
