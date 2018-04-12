@@ -32,17 +32,13 @@ __Figure XX__ - Neighbor-joining Euclidean distance trees using the All-33 datas
 ![](Figures/NJ_tree-crep_noncrep.png)
 ![](Figures/NJ_tree-by_species.png)
 
-__Figure XX__ - Results of Structure analyses for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, with and without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs using the optimal number of clusters for each dataset.
+__Figure XX__ - Results of Structure analyses for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, with and without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=5.
 
-![](Figures/Structure_plot-All_unfiltered-K5.png)
-![](Figures/Structure_plot-All_filtered-K6.png)
+![](Figures/Structure_plots-Mixed_unfiltered_vs_filtered-K5.png)
 
-__Figure XX__ - Results of Structure analyses for the subsets of the data including only samples assigned as _C. intricatum_, with and without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs using the optimal number of clusters for each dataset.
+__Figure XX__ - Results of Structure analyses for the subset of the data including only samples assigned as _C. intricatum_ without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=2 and K=6.
 
-![](Figures/Structure_plot-Crep_unfiltered-K4.png)
-![](Figures/Structure_plot-Crep_unfiltered-K8.png)
-![](Figures/Structure_plot-Crep_filtered-K4.png)
-![](Figures/Structure_plot-Crep_filtered-K8.png)
+![](Figures/Structure_plots-Crep_filtered-K2_and_K6.png)
 
 __Figure XX__ - K-means analysis for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, with and without non-_Crepidomanes_ loci.
 
