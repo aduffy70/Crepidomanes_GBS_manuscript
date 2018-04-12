@@ -62,7 +62,12 @@ To further confirm species assignments from Structure, neighbor-joining Euclidea
 
 ## Removing non-_Crepidomanes_ genetic signal and investigating genetic variation in _C. intricatum_
 
-To explore genetic variation in _C. intricatum_, gametophyte samples assigned as _C.intricatum_ and gametophytes assigned as _C. intricatum_ or mixed/unknown were further analyzed separately. To see if the genetic signal from _V. boschiana_ and _D. petersii_ in the potentially mixed samples could be removed bioinformatically and allow them to be included in the analysis, loci were identified as "_Crepidomanes_ loci" or "Non-_Crepidomanes_ loci" based on whether they were present in any sample assigned as _D. petersii_ or _V. boschiana_. We hypothesized that removing these non-_Crepidomanes_ loci from a sample with mixed genetic signal would remove loci specific to _D. petersii_ or _V. boschiana_ as well as loci shared between those species and _C. intricatum_, leaving mostly loci unique to _C. intricatum_. Four _C. intricatum_ subsets of the data were generated from the base dataset, with and without mixed/unknown samples, and with and without non-_Crepidomanes_ loci, each using a minimum sample coverage cutoff of 50% (Table 3). Patterns of genetic variation in each dataset were analyzed using Structure and neighbor-joining Euclidean distance trees. Isolation by distance was tested using Mantel tests and Pearson's product-moment correlation with adagenet in R, and genetic distances were compared at different geographic scales and in glaciated and non-glaciated sites.
+To explore genetic variation in _C. intricatum_, gametophyte samples assigned as _C.intricatum_ and gametophytes assigned as _C. intricatum_ or mixed/unknown were further analyzed separately. To see if the genetic signal from _V. boschiana_ and _D. petersii_ in the potentially mixed samples could be removed bioinformatically allowing the _C. intricatum_ genetic signal to be analyzed, loci were identified as "_Crepidomanes_ loci" or "Non-_Crepidomanes_ loci" based on whether they were present in any sample assigned as _D. petersii_ or _V. boschiana_. We hypothesized that removing these non-_Crepidomanes_ loci from a sample with mixed genetic signal would remove loci specific to _D. petersii_ or _V. boschiana_ as well as loci shared between those species and _C. intricatum_, leaving mostly loci unique to _C. intricatum_. Four _C. intricatum_ subsets of the data were generated from the base dataset, with and without mixed/unknown samples, and with and without non-_Crepidomanes_ loci, each using a minimum sample coverage cutoff of 50% (Table 3). Patterns of genetic variation in each dataset were analyzed using Structure and neighbor-joining Euclidean distance trees. Isolation by distance was tested using Mantel tests and Pearson's product-moment correlation with adagenet in R, and genetic distances were compared at different geographic scales and in glaciated and non-glaciated sites.
+
+NOTE- WHAT ABOUT basic descriptive population genetic stats (AMOVA, pairwise Fst, obs vs exp het, allelic richness, etc.)? I think most will require grouping samples by region since many sites have only a single sample. How can I actually quantify the amount of variation in my samples? In other words, do I have evidence that Crepidomanes has low levels of genetic variation over its range? Can I get an Fst for all three species? Are there published Fst values for other filmies for comparison?
+
+NOTE- Evanno deltaK? Won't help for Crep-only datasets because it can't tell you if the optimum K=1. Run it on other datasets just so I can say I did it. In the end we will use K=3 on the all species runs because that is the clustering that makes sense for 3 species. On the Crep+Mixed we can use just about any K to show that the mixed samples group separately from the Crep samples. On the Crep-only, pretty much any K will show that the groupings don't make geographic sense and the samples that look the most different also happen to be the samples with lowest locus counts.
+
 
 RESULTS
 =======
@@ -81,19 +86,20 @@ Neighbor-joining Euclidean distance trees generally support the gametophyte assi
 
 Removing the non-_Crepidomanes_ loci did not have a large effect on the total number of loci in the Mixed-filtered dataset relative to the Mixed-unfiltered dataset (6% of total loci filtered; Table 3), likely because even a non-_Crepidomanes_ locus present in all 15 of the mixed/unknown samples would not meet the 50% minimum sample coverage cutoff. Individual samples differed in the proportion of loci with signal (not missing data) that were lost (Table 4), but mixed/unknown samples lost an average of 19% of their loci with signal, whereas _C. intricatum_ samples only lost an average of 6%, and this difference is statistically significant (t=4.48, df=15.4, p=0.0004). As expected, removing the non-_Crepidomanes_ loci had even less effect on the total number of loci in the _C. intricatum_ filtered dataset relative to the _C. intricatum_ unfiltered dataset, with only 2% of total loci filtered (Table 3; Table 4).
 
-
-
 ## Investigating genetic variation in _C. intricatum_
 
- * IBD:
+Structure runs using the Mixed-unfiltered subset of the data suggest that the mixed/unknown samples cluster separately from the _C. intricatum_ samples (Figure XX). _C. intricatum_ samples all have most (>90%) of their ancestry assigned to clusters c1 and c2, whereas 12 of the 15 mixed/unknown samples have the majority of their ancestry assigned to other clusters and all 15 have over 10% of their ancestry assigned to other clusters.  After filtering non-_Crepidomanes_ loci (Figure XX) this apparent difference between _C. intricatum_ and mixed/unknown samples remains, with only two mixed/unknown samples (S07 and S49) losing their ancestry assignments to the other clusters. It is possible that these two sample are actually mixed samples and the other 13 just appear to be mixed due to insufficient genetic signal. However, it is also possible that the attempt to bioinformatically removing non-_Crepidomanes_ genetic signal was not successful and that removing the loci present in the _V. boschiana_ and _D. petersii_ samples did not remove a large enough proportion of the non-_Crepidomanes_ loci. In either case, because we cannot determine whether the mixed/unknown samples cluster separately because of variation in _C. intricatum_ genetic signal or because of genetic signal from other species, the remaining analyses  focused only on the 26 _C. intricatum_ samples.
+
+Structure results using the _C. intricatum_-unfiltered and _C. intricatum_-filtered datasets were similar. Subsequent analyses using the unfiltered and filtered _C. intricatum_ datasets yielded identical inferences, so only results for the _C. intricatum_-filtered dataset are shown.
+
+ NOTE- IBD:
    * There appears to be slight isolation by distance, but upon closer examination, it appears to be due to the lower genetic distance in within-collection comparisons. Genetic distance is similar for within-site, within-region, and between region comparisons. So, there is evidence of IBD but only at very small geographic distances.
 
 DISCUSSION
 ==========
-Primary focus on the 3 species story. Secondary focus on the lack of variation and what that means for our ability to distinguish between hypotheses.
+NOTE- Primary focus on the 3 species story. Secondary focus on the lack of genetic structure and variation(?) and what that means for our ability to distinguish between hypotheses.
 
-
-Notes on hypotheses:
+NOTE- on hypotheses:
 Every population of gametophytes was established recently or anciently by dispersal:
   - spores
     - from nearby sporophytes
@@ -113,6 +119,8 @@ Every population is maintained by:
       - from nearby gametophytes
       - from far away gametophytes
 The different hypotheses for how these populations were established and maintained are just based on different combinations of these. Some are more likely than others. Some are very likely explanations for many populations but are not possible for populations in glaciated areas or for the first population. When considering the first population, does liklihood of an establishment hypothesis even matter? It just had to happen once.
+
+NOTE- Compare to Devil's Hole Pupfish system. Similar questions about establishment with similar possible timeframes. Well funded and researched due to high conservation interest, no issues with ploidy, no issues with asexual reproduction, potential source populations are nearby... but they still can't reach a consensus.
 
 
 REFERENCES
