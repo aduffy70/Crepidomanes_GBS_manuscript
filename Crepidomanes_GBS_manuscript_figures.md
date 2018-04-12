@@ -49,3 +49,7 @@ __Figure XX__ - K-means analysis for the datasets including samples assigned as 
 __Figure XX__ - Delta-K analysis for all four datasets.
 
 ![](Figures/Evanno_deltaK.png)
+
+__Figure XX__ - Neighbor-joining Euclidean distance tree for the dataset including only samples assigned as _C. intricatum_ without non-_Crepidomanes_ loci.
+
+![](Figures/NJ_tree-Crep_filtered.png)
