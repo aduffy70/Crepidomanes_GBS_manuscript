@@ -57,3 +57,7 @@ __Figure 12__ - Neighbor-joining Euclidean distance tree for the dataset includi
 __Figure 13__ - Minimum spanning network for the dataset including only samples assigned as _C. intricatum_ without non-_Crepidomanes_ loci.
 
 ![](Figures/Minimum_spanning_network-Crep_filtered.png)
+
+__Figure 14__ - Genetic distance between _C. intricatum_ samples at different geographic scales.
+
+![](Figures/Genetic_distance_at_different_scales.png)
