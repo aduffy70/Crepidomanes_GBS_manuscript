@@ -96,7 +96,7 @@ Analysis of K-means and Evanno's delta-K for the C. intricatum + mixed/unknown d
 
 Mantel tests failed to find evidence of isolation by distance. Using Pearson's product-moment correlation, geographic and genetic distance are weakly correlated (R=0.13) and this correlation is statistically significantly different from zero (t = 2.349, df = 323, p=0.01943), but examination of genetic distance at different geographic scales suggests that the correlation is due to lower genetic distance in within-collection comparisons (Figure 14). Genetic distance is similar for within-site, within-region, and between region comparisons and the correlation between geographic and genetic distance (R=0.08) is not statistically significant when only including comparisons at these scales (t = 1.4177, df = 305, p-value = 0.1573).
 
-
+The Neighbor-joining Euclidean distance tree (Figure 12) and the Minimum spanning network (Figure 13) support the lack of genetic structure identified by Structure and the apparent lack of isolation by distance. Tip branch lengths are long relative to internal branches and samples from the same site or even the same collection do not consistently form monophyletic groups or distinct clusters.
 
 DISCUSSION
 ==========
