@@ -32,7 +32,7 @@ __Figure 7__ - Results of Structure analyses for the datasets including samples 
 
 ![](Figures/Structure_plots-Mixed_unfiltered_vs_filtered-K5.png)
 
-__Figure 8__ - Results of Structure analyses for the subset of the data including only samples assigned as _C. intricatum_ without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=2 and K=6.
+__Figure 8__ - Results of Structure analyses for the subset of the data including only samples assigned as _C. intricatum_ without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=2. NOTE- Drop the K=6 part of the figure
 
 ![](Figures/Structure_plots-Crep_filtered-K2_and_K6.png)
 
