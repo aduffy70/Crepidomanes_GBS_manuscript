@@ -24,9 +24,11 @@ __Figure 5__ - Probabilites of assignment to the cluster without gametophytes in
 
 ![](Figures/Crep_probability-by_spp.png)
 
-__Figure 6__ - Neighbor-joining Euclidean distance trees using the All-33 dataset. Tip labels are colored based on Structure results. NOTE-Replace with bootstrapped tree?
+__Figure 6__ - Neighbor-joining Euclidean distance trees using the All-33 dataset. Tip labels are colored based on Structure results. Nodes labeled with numbers indicated bootstrap values >50.
 
+![](Figures/NJ_tree-by_species-bootstrapped.png)
 ![](Figures/NJ_tree-by_species.png)
+
 
 __Figure 7__ - Results of Structure analyses for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, a) with and b) without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=5.
 
