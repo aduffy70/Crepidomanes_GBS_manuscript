@@ -46,13 +46,14 @@ __Figure 11__ - Delta-K analysis for all four datasets.
 
 ![](Figures/Evanno_deltaK.png)
 
-__Figure 12__ - Neighbor-joining Euclidean distance tree for the dataset including only samples assigned as _C. intricatum_ without non-_Crepidomanes_ loci.
+__Figure 12__ - Neighbor-joining Euclidean distance tree for _C. intricatum_ samples.
 
-![](Figures/NJ_tree-Crep_filtered.png)
+![](Figures/NJ_tree-Crep_unfiltered-boostrapped.png)
+![](Figures/NJ_tree-Crep_unfiltered.png)
 
-__Figure 13__ - Minimum spanning network for the dataset including only samples assigned as _C. intricatum_ without non-_Crepidomanes_ loci.
+__Figure 13__ - Minimum spanning network for _C. intricatum_ samples.
 
-![](Figures/Minimum_spanning_network-Crep_filtered.png)
+![](Figures/Minimum_spanning_network-Crep_unfiltered.png)
 
 __Figure 14__ - Pairwise comparisons of genetic distance vs. geographic distance in _C. intricatum_ samples.
 
