@@ -32,11 +32,11 @@ __Figure 6__ - Neighbor-joining Euclidean distance trees using the All-33 datase
 
 __Figure 7__ - Results of Structure analyses for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, a) with and b) without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=2.
 
-![](Figures/Structure_plots-Mixed_unfiltered_vs_filtered-K5.png)
+![](Figures/Structure_plots-Mixed_unfiltered_vs_filtered-K2.png)
 
 __Figure 8__ - Results of Structure analyses for the subset of the data including only samples assigned as _C. intricatum_. Results shown are from the best of 20 runs at K=2.
 
-![](Figures/Structure_plots-Crep_filtered-K2_and_K6.png)
+![](Figures/Structure_plots-Crep_unfiltered-K2.png)
 
 __Figure 9__ - K-means analysis for the datasets including samples assigned as _C. intricatum_ or _C. intricatum_ + Unknown, with and without non-_Crepidomanes_ loci.
 
