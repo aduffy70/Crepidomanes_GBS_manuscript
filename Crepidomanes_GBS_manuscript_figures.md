@@ -30,23 +30,17 @@ __Figure 6__ - Neighbor-joining Euclidean distance trees using the All-33 datase
 ![](Figures/NJ_tree-by_species.png)
 
 
-__Figure 7__ - Results of Structure analyses for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, a) with and b) without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=5.
+__Figure 7__ - Results of Structure analyses for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, a) with and b) without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=2.
 
 ![](Figures/Structure_plots-Mixed_unfiltered_vs_filtered-K5.png)
 
-__Figure 8__ - Results of Structure analyses for the subset of the data including only samples assigned as _C. intricatum_ without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=2. NOTE- Drop the K=6 part of the figure
+__Figure 8__ - Results of Structure analyses for the subset of the data including only samples assigned as _C. intricatum_. Results shown are from the best of 20 runs at K=2.
 
 ![](Figures/Structure_plots-Crep_filtered-K2_and_K6.png)
 
-__Figure 9__ - K-means analysis for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, with and without non-_Crepidomanes_ loci.
+__Figure 9__ - K-means analysis for the datasets including samples assigned as _C. intricatum_ or _C. intricatum_ + Unknown, with and without non-_Crepidomanes_ loci.
 
-![](Figures/Kmeans-Mixed_unfiltered.png)
-![](Figures/Kmeans-Mixed_filtered.png)
-
-__Figure 10__ - K-means analysis for the datasets including samples assigned as _C. intricatum_, with and without non-_Crepidomanes_ loci.
-
-![](Figures/Kmeans-Crep_unfiltered.png)
-![](Figures/Kmeans-Crep_filtered.png)
+![](Figures/Kmeans.png)
 
 __Figure 11__ - Delta-K analysis for all four datasets.
 
