@@ -54,6 +54,10 @@ __Figure 13__ - Minimum spanning network for the dataset including only samples 
 
 ![](Figures/Minimum_spanning_network-Crep_filtered.png)
 
-__Figure 14__ - Genetic distance between _C. intricatum_ samples at different geographic scales.
+__Figure 14__ - Pairwise comparisons of genetic distance vs. geographic distance in _C. intricatum_ samples.
+
+![](Figures/Isolation_by_distance.png)
+
+__Figure 15__ - Genetic distance between _C. intricatum_ samples at different geographic scales.
 
 ![](Figures/Genetic_distance_at_different_scales.png)
