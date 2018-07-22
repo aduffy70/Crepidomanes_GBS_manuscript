@@ -22,7 +22,7 @@ Citations for temperature moderated habitats of _C. intricatum_: Farrar 1998, Ch
 _D. petersii_ has been found growing up to 50km from the nearest sporophyte population [@Farrar1992-pm; @Bray1996-hp]. Even though the gametophytes of _D. petersii_ and _C. intricatum_ are identical, can both form independent gametophyte populations and have overlapping geographic ranges, only recently have genetic tools been used to determine the species identity of unknown gametophytes [@Pinson2017-eu]. ([@Farrar1992-pm] -- they used isozymes on 30 samples from east of the Mississippi river that did not have _D. petersii_ or _V. boschiana_ sporophytes and they all had the _C. intricatum_ banding pattern)
 [@Bray1996-hp] for apparent example of assuming independent gametophyte populations are _D. petersii_ based on their presence in a region where the sporophytes have been identified.
 
-[@Ebihara2009-sg] for example of complex hybridization relationships in independent gametophytes of _Vandenboschia_ spp. They hypothesize that gametes from gametophytes that cannot produce sporophytes hybridize with another species. They found two samples that appeared to have 2 different taxa growing intertwined... so it isn't too far-fetched to think that some of my samples could contain individuals of 2 species.
+[@Ebihara2009-sg] for example of complex hybridization relationships in independent gametophytes of _Vandenboschia_ species. They hypothesize that gametes from gametophytes that cannot produce sporophytes hybridize with another species. They found two samples that appeared to have 2 different taxa growing intertwined... so it isn't too far-fetched to think that some of my samples could contain individuals of 2 species.
 
 The three species in this study are related closely enough that they were once all included in the genus _Trichomanes_ ([@Ebihara2006-ce; @Ebihara2007-kq] and their gametophytes cannot be distinguished morphologically.
 
@@ -55,7 +55,7 @@ METHODS
 
 ## Sampling
 
-50 suspected _C.intricatum_, _D. petersii_, or _V. boschiana_ gametophyte samples, one _D. petersii_ sporophyte sample, and three _V. boschiana_ sporophyte samples collected between 1965 and 2007 were selected to represent much of the known geographic range of _C.intricatum_ (Figure 3). Samples included gametophytes from previously glaciated areas, from multiple sites within some geographic regions, and from multiple patches within some sites. In addition, multiple DNA samples were extracted from some collections to look for variation within presumed clones (Table 1, Table 2).
+50 suspected _C. intricatum_, _D. petersii_, or _V. boschiana_ gametophyte samples, one _D. petersii_ sporophyte sample, and three _V. boschiana_ sporophyte samples collected between 1965 and 2007 were selected to represent much of the known geographic range of _C. intricatum_ (Figure 3). Samples included gametophytes from previously glaciated areas, from multiple sites within some geographic regions, and from multiple patches within some sites. In addition, multiple DNA samples were extracted from some collections to look for variation within presumed clones (Table 1, Table 2).
 
 ## DNA extraction
 
@@ -63,15 +63,15 @@ Because of the small size of individual gametophytes and their tangled filamento
 
 ## Library preparation and Illumina sequencing
 
-The GBS library was prepared according to an established double-digest restriction site-assoiciated DNA sequencing (ddRADseq) protocol [@Gompert2012-ir; @Parchman2012-qm] using restriction enzymes EcoR1 and Mse1. PCR amplification steps were performed using iProof high-fidelity DNA polymerase (New England Biolabs) to minimize PCR error. To maximize the number of homogeneous loci across samples, pooled samples were size selected using Blue Pippen (Sage Science, Beverly, Massachusetts, USA), retaining loci between 250--350 bp. Samples were run on a single lane of Illumina HiSeq 2500 with 100 bp single-end sequencing at the Genome Sequencing and Analysis Facility at University of Texas.
+The GBS library was prepared according to an established double-digest restriction site-associated DNA sequencing (ddRADseq) protocol [@Gompert2012-ir; @Parchman2012-qm] using restriction enzymes EcoR1 and Mse1. PCR amplification steps were performed using iProof high-fidelity DNA polymerase (New England Biolabs) to minimize PCR error. To maximize the number of homogeneous loci across samples, pooled samples were size selected using Blue Pippen (Sage Science, Beverly, Massachusetts, USA), retaining loci between 250--350 bp. Samples were run on a single lane of Illumina HiSeq 2500 with 100 bp single-end sequencing at the Genome Sequencing and Analysis Facility at University of Texas.
 
 ## Identifying loci and calling genotypes
 
-Raw illumina reads were inspected for quality using fastQC [@Andrews2010-yx] and analyzed with ipyRAD v.0.7.1 [@Eaton2014-rr] using default settings except as noted below. Reads were sorted by barcode allowing up to two mismatched bases in the barcode sequence, filtered to remove low quality bases and reads with excessive low quality bases, and trimmed to remove Illumina adapter sequences.
+Raw Illumina reads were inspected for quality using fastQC [@Andrews2010-yx] and analyzed with ipyRAD v.0.7.1 [@Eaton2014-rr] using default settings except as noted below. Reads were sorted by barcode allowing up to two mismatched bases in the barcode sequence, filtered to remove low quality bases and reads with excessive low quality bases, and trimmed to remove Illumina adapter sequences.
 
 To determine the appropriate clustering threshold for _de novo_ assembly of loci, clustering was performed over a range of threshold values from 0.95 down to 0.80. Higher values risk splitting alleles of a single locus into separate clusters, whereas lower values risk combining paralogs into single clusters. At higher threshold values the average number of clusters in _V. boschiana_ sporophyte samples is higher than in suspected _V. boschiana_ gametophyte samples, as would be expected if the ploidy level of the sporophytes is greater than the gametophytes. As the threshold values decrease the average number of clusters in sporophyte and gametophyte samples become similar, suggesting that multiple alleles in the sporophyte samples are being combined into loci. A threshold value of 0.85 was selected as a high value where the number of clusters in _V. boschiana_ sporophyte and gametophyte samples are similar (Figure 4).
 
-Because allozyme studies suggest that _C.intricatum_ gametophytes are diploid [@Farrar1985-nm], samples were treated as diploid for estimating heterozygosity and error rates, and genotype calling in ipyRAD.
+Because allozyme studies suggest that _C. intricatum_ gametophytes are diploid [@Farrar1985-nm], samples were treated as diploid for estimating heterozygosity and error rates, and genotype calling in ipyRAD.
 
 Each 35--100 bp locus identified by ipyRAD may contain multiple SNPs. To avoid using tightly linked SNPs, ipyRAD provides output files with genotypes from 1 randomly selected SNP per locus (.ustr format). However, this random sampling takes place after loci have been filtered for minimum sample coverage, so some SNPs may not have the requested minimum sample coverage even though the locus they are within does, resulting in higher than expected levels of missing data. Also, because the SNP from each locus is selected randomly at the time the output file is generated, multiple ipyRAD datasets from runs with increasing minimum sample coverage values may result in datasets that are not subsets of each other. To ensure that all the analyses in this study were based on subsets of the same data and only included SNPs with the desired minimum sample coverage, we used ipyRAD to generate a dataset of loci with coverage in six samples and filtered that "base ipyRAD dataset" to the desired minimum sample coverages using a custom python script.
 
@@ -79,7 +79,7 @@ Each 35--100 bp locus identified by ipyRAD may contain multiple SNPs. To avoid u
 
 To group samples by species, we generated three datasets from the base ipyRAD dataset including all 54 samples and loci present in at least 33%, 50%, and 66% of samples, to balance the risks of using large numbers of loci with much missing data against the risks of using very few loci with high sample coverage (Table 3). Each dataset was analyzed using Structure [@Pritchard2000-ek] with 3 clusters to determine whether each gametophyte sample:
   1. was consistently assigned to a cluster with the _V. boschiana_ sporophytes or _D. petersii_ sporophyte (suggesting that it is likely a gametophyte of one of those species),
-  2. was consistently assigned to a cluster without sporophytes (suggesting that it is likely a gametophyte of _C.intricatum_), or
+  2. was consistently assigned to a cluster without sporophytes (suggesting that it is likely a gametophyte of _C. intricatum_), or
   3. was not consistently assigned to any one cluster (suggesting that it may include a mixture of more than one species of gametophyte, that it may contain hybrid gametophytes, or that there is not sufficient genetic signal to consistently make an assignment).
 
 To compare with species assignments from Structure, neighbor-joining Euclidean distance trees were generated with the adagenet package in R [@Jombart2008-sq; @Jombart2011-zo] with bootstrap values calculated using the poppr R package [@Kamvar2014-de].
@@ -88,7 +88,7 @@ Mean observed heterozygosity levels in each species were compared using ANOVA wi
 
 ## Investigating genetic variation in _C. intricatum_
 
-To explore genetic variation in _C. intricatum_, gametophyte samples assigned as _C.intricatum_ and gametophytes assigned as _C. intricatum_ or Unknown were further analyzed separately. Nine samples with low read counts (fewer than 1 million cleaned and quality filtered reads) were removed from the analysis to reduce the level of missing data and risk of mis-called genotypes due to missing alleles.
+To explore genetic variation in _C. intricatum_, gametophyte samples assigned as _C. intricatum_ and gametophytes assigned as _C. intricatum_ or Unknown were further analyzed separately. Nine samples with low read counts (fewer than 1 million cleaned and quality filtered reads) were removed from the analysis to reduce the level of missing data and risk of mis-called genotypes due to missing alleles.
 
 To determine if the genetic signal from _V. boschiana_ and _D. petersii_ in the potentially mixed Unknown samples could be removed bioinformatically, allowing the _C. intricatum_ genetic signal to be analyzed, loci were identified as "_Crepidomanes_ loci" or "Non-_Crepidomanes_ loci" based on whether they were present in any sample assigned as _D. petersii_ or _V. boschiana_. We hypothesized that removing these non-_Crepidomanes_ loci from a sample with mixed genetic signal would remove loci specific to _D. petersii_ or _V. boschiana_ as well as loci shared between those species and _C. intricatum_, leaving mostly loci unique to _C. intricatum_. Four _C. intricatum_ subsets of the data were generated from the base dataset, with and without Unknown samples, and with and without non-_Crepidomanes_ loci, each using a minimum sample coverage cutoff of 50% (Table 3). Patterns of genetic variation were analyzed using Structure, neighbor-joining Euclidean distance trees, and minimum spanning networks. Isolation by distance was tested using Mantel tests and Pearson's product-moment correlation with adagenet in R, and genetic distances were compared at different geographic scales and between glaciated and non-glaciated sites.
 
@@ -131,27 +131,16 @@ The Neighbor-joining Euclidean distance tree (Figure 13) and the Minimum spannin
 
 ### Comparison of within-collection samples
 
-Based on assumptions about gemmae dispersal ability and clonal growth of independent gametophyte populations, we expected that _C. intricatum_ samples from the same collection would likely be identical clones, but pairwise distances of within-collection samples are not consistently among the lowest. They are generally lower than pairwise distances of samples at larger geographic scales, but span the lower half of the total range of pairwise distances (Figure 12). In no case do sets of samples from the same collection all have their smallest genetic distances to each other. In some cases, the distances that are lower are similar to the distance between the within-collection samples (e.g., S09 and S10 have distance 27.1 but both are closer to S15 with distance 25.8 and 26.9, respectively). In other cases other samples have much less genetic distance to one or both of the within-collection samples than the within-collection samples have to each other (e.g., S16 and S17 have distance 47.1, but S16 is closer to 17 other samples with distances ranging from 26.9--44.6).
+Based on assumptions about gemmae dispersal ability and clonal growth of independent gametophyte populations, we expected that _C. intricatum_ samples from the same collection would likely be identical clones, but pairwise distances of within-collection samples are not consistently among the lowest. They are generally lower than pairwise distances of samples at larger geographic scales, but span the lower half of the total range of pairwise distances (Figure 12). In no case do sets of samples from the same collection all have their smallest genetic distances to each other. In some cases, the distances that are lower are similar to the distance between the within-collection samples (_e.g_., S09 and S10 have distance 27.1 but both are closer to S15 with distance 25.8 and 26.9, respectively). In other cases other samples have much less genetic distance to one or both of the within-collection samples than the within-collection samples have to each other (_e.g_., S16 and S17 have distance 47.1, but S16 is closer to 17 other samples with distances ranging from 26.9--44.6).
 
-To determine whether this high variation in genetic distances between samples that were expected to be genetically identical is because the samples are not genetically identical or is due to high levels of noise or error relative to the level of genetic signal in the data, we generated a new GBS dataset with simulated clones by replacing the Illumina reads for each set of  within-collection samples with an equal number of reads drawn randomly from a pool of their combined reads. This re-sampled GBS dataset was processed using ipyrad and loci were filtered using the same settings as the original dataset.  
+To determine whether this high variation in genetic distances between samples that were expected to be genetically identical is because the samples are not genetically identical or is due to high levels of noise or error relative to the level of genetic signal in the data, we generated a new GBS dataset with simulated clones by replacing the Illumina reads for each set of  within-collection samples with an equal number of reads drawn randomly from a pool of their combined reads. This re-sampled GBS dataset was processed using ipyRAD and loci were filtered using the same settings as the original dataset.  
 
 The distributions of pairwise distances for the not-within-collection samples in the re-sampled and original datasets were similar but the distribution of pairwise distances for the simulated clone samples differed from the original within-collection samples (Figure 15). The distances for simulated clones were lower than most of the original within-collection sample distances, but distances from the original dataset that do fall within the same range as the distances for the simulated clones could potentially represent genetically identical clones. The variation among the pairwise distances for the simulated clones (distance 23.1--29.4) suggests that pairwise distances differing by several distance units cannot be reliably distinguished as different from each other. To explore how this uncertainty affects our ability to infer relationships among samples, we generated an adjusted minimum spanning network showing additional connections between samples with distances that cannot be distinguished from the distance to the least distant sample (Figure 16). The resulting network better reflects the uncertainty in which samples are most similar, with most samples having more than one most similar sample. The network features a cluster of eight Illinois samples with distances suggesting they may be genetically identical or at least very similar to each other. The Western Pennsylvania, Massachusetts, and one Illinois sample (S17) are the most genetically distant from other samples (and are distant from each other as well), while the Eastern Pennsylvania samples and remaining Illinois samples are at intermediate distances to each other and to the closely related Illinois samples.
 
-
 DISCUSSION
 ==========
-NOTE- Primary focus on the 3 species story. Secondary focus on the lack of genetic structure and what that means for our ability to distinguish between hypotheses.
-
-  * Species ID
-
-  * population genetics
-
-  * hypotheses and Problems
-
-  * Conclusions going back to the positive from my data
 
 ## Separating samples by species using genotyping-by-sequencing data
-
 
 Analysis of the population genetics of _C. intricatum_ is complicated by the presence of other filmy fern species with partially overlapping ranges and morphologically indistinguishable gametophytes. Limitations in the amount of DNA that can be extracted from tiny amounts of gametophyte tissue and the possibility that multiple extractions from the same gametophyte collection may sample genetically different individuals or even individuals of different species make it challenging to extract enough DNA to use for both species identification and for other analyses. One objective of this study was to determine whether species identification of _C. intricatum_, _V. boschiana_, and _D. petersii_ gametophytes and population genetic analyses of the gametophytes determined to be _C. intricatum_ could both be performed using a single genotyping-by-sequencing dataset.
 
@@ -183,7 +172,6 @@ Separation of generations: Patterns of variation would depend on the same factor
 
 The predictions based on each of the hypotheses can vary drastically based on unknown factors and it is not clear that the pattern of variation identified for _C. intricatum_ is entirely inconsistent with any of them. It does not appear to be a single spore introduction (or very few introductions) with subsequent dispersal of only gemmae--there are multiple genetically distant genotypes in each region--but we cannot rule out scenarios with many introductions from a diverse source.
 
-
 ## Caveats and challenges
 
 There are challenges encountered in this study that may impact or limit inferences.
@@ -198,38 +186,14 @@ Using multiple gametophytes in each sample and focusing on larger collections co
 
 ##  Conclusions and further work
 
-Untested assumptions about dispersal ability of gemmae relative to spores:
+Many of the expectations for genetic diversity under different hypotheses are based on untested assumptions about the dispersal ability of _C. intricatum_ gemmae relative to spores based on their size. Dispersal of asexual or vegetative propagules has been better studied in bryophytes. Bryophytes that rarely or never produce sporophytes are common--sporophytes are unknown for 20% of British mosses--and bryophyte propagules with size and structure comparable to _C. intricatum_ gemmae play an important role in habitat colonization and local or regional maintenance of populations [@Frey2011-uy]. Dispersal mechanisms including water, wind, and animal vectors have been demonstrated in bryophytes [@Pasiche-Lisboa2018-kz] but nothing is known about the dispersal mechanisms or ability of Crepidomanes gemmae or gametophyte fragments. The lack of gametophyte populations in recently disturbed sites like train tunnels or roadcuts is taken as evidence of poor dispersal [@Farrar1992-pm] but it is not clear whether these habitats have been extensively surveyed or whether there are habitat requirements differences that make those sites unsuitable. Experiments like the recent study to determine limiting factors in _V. appalachiana_ distribution [@Chambers2016-kf] could test this.
 
-  * Dispersal of asexual or vegetative propagules has been better studied in bryophytes and species that rarely or never produce sporophytes are common (20% of British mosses have never been found producing sporophytes). Bryophyte propagules with size and structure comparable to _C. intricatum_ gemmae play a role in habitat colonization and local or regional maintenance of populations, including examples in the Appalachians (Plagiochila caduciloba and Herbertus spp, [@Frey2011-uy]). Dispersal mechanisms water droplets, wind, and animal vectors have been demonstrated to be potentially viable in bryophytes [@Pasiche-Lisboa2018-kz].
+Nothing in this study addressed the question of why we do not find _C. intricatum_ sporophytes, and it is unlikely that population genetics data can provide an answer--though the presence of multiple genotypes in some populations suggests that it is not a problem of self-incompatibility in clonal populations. Further work is needed to investigate potential explainations for the lack of sexual reproduction in _C. intricatum_.
 
-  * Lack of gametophyte populations in manmade sites like train tunnels or roads cuts has been offered as evidence of poor gemmae dispersal, but it is not clear how extensively those types of sites been surveyed or whether there are there habitat requirements we haven't considered which make those sites unsuitable. Experiments like recent studies to determine limiting factors in _V. appalachiana_ distribution [@Chambers2016-kf] could test this.
+We were not able to use GBS data to differentiate among hypotheses for how _C. intricatum_ independent gametophyte populations were established and reached their current distribution, but this study provides useful information on filmy fern independent gametophytes in Eastern North America. The data presented highlight the risks of assuming gametophyte species based on geographic location and presence or absence of sporophytes--all three species included in this study may be found without sporophytes and _C. intricatum_ may be found growing with sporophytes of other filmy fern species. A contiguous patch of independent gametophytes may contain more than a single species, which is significant based on suggestions that some Asian independent gametophytes are not directly producing sporophytes, but may be contributing gametes for hybridization [@Ebihara2009-sg].
 
-  * Wind dispersal does seem less likely to be effective based on gemmae size and the protected sites where the gametophytes grow, but this and other dispersal mechanisms have not been investigated in _C. intricatum_.
+This study provides a first look at patterns of genetic variation in _C. intricatum_ gametophyte populations, which demonstrate a lack of genetic structure, only weak evidence of isolation by distance, and genetic variation present at all geographic scales. Even within a contiguous patch of gametophytes, individuals growing intimately entwined may not be genetically identical clones.
 
-I haven't said anything about the "WHY" of lack of sporophytes...
-
-  * Single genotypes in clonal populations (and self-incompatibility) are a possible explanation for lack of sporophytes--but we have evidence for multiple genotypes in at least some clones.
-
-We may not have been able to differentiate among hypotheses using the GBS data, but what were we able to do?
-
-  * Highlighted risks of assuming gametophyte spp based on lack of sporophytes or geographic location--it isn't always _C. intricatum_. _D. petersii_'s range may extend into Southern Illinois.
-
-  * Found evidence suggesting we cannot assume single clones even in gametophytes growing intimately entwined.
-
-  * Found evidence suggesting possible intermingling (or less likely, hybridization) of spp in single patches of gametophyte.
-
-  * Provided a first look at the patterns of genetic variation in _C. intricatum_ gametophyte populations. Found only weak evidence of isolation by distance, and genetic variation is present at all geographic scales.
-
-  * Our finding that some independent gametophyte populations may contain more than one species is significant given Ebihara's work [@Ebihara2009-sg] suggesting independent gametophytes may not be directly producing sporophytes but may be contributing gametes for hybridization.
-
-Despite some of the challenges of this study it does have some advantages over previous population genetic analyses of species with independent gametophyte species:
-
-  * Highly variable markers: In previous studies few populations of _T. speciosum_ or _V. appalachiana_ contained more than a single isozyme phenotype or cpDNA genotype, and _T. intricatum_ samples all shared a single isozyme phenotype, whereas we identified variation within most of the sites with multiple samples.
-
-
-Other things to work in?
-
-Devil's Hole Pupfish system. Similar questions about establishment with similar possible timeframes. Well funded and researched due to high conservation interest, no issues with ploidy, no issues with asexual reproduction, potential source populations are nearby... but they still cannot reach a consensus.
 
 ACKNOWLEDGEMENTS
 ================
