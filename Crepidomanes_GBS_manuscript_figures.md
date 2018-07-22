@@ -6,63 +6,75 @@ __Figure 1__ - _Crepidomanes intricatum_ gametophytes. a) A small colony includi
 ![](Figures/Crepidomanes-clone_with_gemmae-cropped.jpg)
 ![](Figures/Crepidomanes-colony_in_culture-cropped.jpg)
 
-__Figure 2__ - Mean clusters per sample for _Vandenboschiana boschiana_ sporophytes and gametophytes at a range of cluster threshold values.
 
-![](Figures/Clusters_by_threshold.png)
-
-__Figure 3__ - Locations and species suspected by collector of _Crepidomanes intricatum_, _Didymoglossum petersii_, and _Vandenboschia boschiana_ samples.
-
-![](Figures/US_map-suspected_species.png)
-![](Figures/IL_map-suspected_species.png)
-
-__Figure 4__ - Locations and species assigned based on this study of _Crepidomanes intricatum_, _Didymoglossum petersii_, _Vandenboschia boschiana_, and mixed/unknown samples.
+__Figure 3__ - Locations and species assigned based on this study of _Crepidomanes intricatum_ (blue), _Didymoglossum petersii_ (yellow), _Vandenboschia boschiana_ (red), and Unknown samples (green=possible _C. intricatum_ + _D. petersii_, violet=possible _C. intricatum_ + _V. boschiana_, black=unknown).
 
 ![](Figures/US_map-assigned_species.png)
 ![](Figures/IL_map-assigned_species.png)
 
-__Figure 5__ - Probabilites of assignment to the cluster without gametophytes in Structure runs using the All-33, All-50, and All-66 datasets. "Suspected spp" is the species the collector of the samples assumed based on geographic location and presence/absence of nearby sporophytes. "Assigned spp" is the species assignment for this study based on the Structure results. Error bars show the combined confidence intervals for all three datasets.
+
+__Figure 4__ - Mean clusters per sample for _Vandenboschiana boschiana_ sporophytes and gametophytes at a range of cluster threshold values.
+
+![](Figures/Clusters_by_threshold.png)
+
+
+__Figure 5__ - Probabilites of assignment to the cluster without sporophytes in Structure runs using the All-33, All-50, and All-66 datasets. "Suspected spp" is the species assumed by the collector of the sample based on geographic location and observed presence/absence of sporophytes. "Assigned spp" is the species assignment for this study based on the Structure results. Error bars show the combined extents of the confidence intervals for all three datasets.
 
 ![](Figures/Crep_probability-by_spp.png)
 
-__Figure 6__ - Neighbor-joining Euclidean distance trees using the All-33 dataset. Tip labels are colored based on Structure results. Nodes labeled with numbers indicated bootstrap values >50.
+
+__Figure 6__ - Neighbor-joining Euclidean distance trees using the All-33 dataset. Tip labels are colored based on Structure results. Nodes with numbers indicate bootstrap values >50.
 
 ![](Figures/NJ_tree-by_species-bootstrapped.png)
-![](Figures/NJ_tree-by_species.png)
 
 
-__Figure 7__ - Results of Structure analyses for the datasets including samples assigned as _C. intricatum_ or mixed/unknown, a) with and b) without non-_Crepidomanes_ loci. Results shown are from the best of 20 runs at K=2.
-
-![](Figures/Structure_plots-Mixed_unfiltered_vs_filtered-K2.png)
-
-__Figure 8__ - Results of Structure analyses for the subset of the data including only samples assigned as _C. intricatum_. Results shown are from the best of 20 runs at K=2.
-
-![](Figures/Structure_plots-Crep_unfiltered-K2.png)
-
-__Figure 9__ - K-means analysis for the datasets including samples assigned as _C. intricatum_ or _C. intricatum_ + Unknown, with and without non-_Crepidomanes_ loci.
+__Figure 7__ - Mean estimated log probability of data for Structure runs at a range of K values using the datasets including samples assigned as _C. intricatum_ or _C. intricatum_ + Unknown, with and without loci shared with _D. petersii_ or _V. boschiana_ samples.
 
 ![](Figures/Kmeans.png)
 
-__Figure 11__ - Delta-K analysis for all four datasets.
+
+__Figure 8__ - Evanno Delta-K values for Structure runs at a range of K values using the datasets including samples assigned as _C. intricatum_ or _C. intricatum_ + Unknown, with and without loci shared with _D. petersii_ or _V. boschiana_ samples.
 
 ![](Figures/Evanno_deltaK.png)
 
-__Figure 12__ - Neighbor-joining Euclidean distance tree for _C. intricatum_ samples.
 
-![](Figures/NJ_tree-Crep_unfiltered-boostrapped.png)
-![](Figures/NJ_tree-Crep_unfiltered.png)
+__Figure 9__ - Results of Structure analyses for the datasets including samples assigned as _C. intricatum_ or Unknown, a) with and b) without loci shared with _D. petersii_ or _V. boschiana_ samples. Results shown are from the best of 20 runs at K=2.
 
-__Figure 13__ - Minimum spanning network for _C. intricatum_ samples.
+![](Figures/Structure_plots-Mixed_unfiltered_vs_filtered-K2.png)
 
-![](Figures/Minimum_spanning_network-Crep_unfiltered.png)
 
-__Figure 14__ - Pairwise comparisons of genetic distance vs. geographic distance in _C. intricatum_ samples.
+__Figure 10__ - Results of Structure analyses for the dataset including only samples assigned as _C. intricatum_. Results shown are from the best of 20 runs at K=2.
+
+![](Figures/Structure_plots-Crep_unfiltered-K2.png)
+
+
+__Figure 11__ - Pairwise comparisons of genetic distance vs. geographic distance in _C. intricatum_ samples.
 
 ![](Figures/Isolation_by_distance.png)
 
-__Figure 15__ - Genetic distance between _C. intricatum_ samples at different geographic scales. Within collection = growing within approximately 10 cm of each other. Within site = different collections within approximately 100 meters. Within region = different sites within 100 km. Between regions = over 100 km apart.
+
+__Figure 12__ - Genetic distance between _C. intricatum_ samples at different geographic scales. Within collection = growing within approximately 10 cm of each other. Within site = different collections within approximately 100 meters. Within region = different sites within 100 km. Between regions = over 100 km apart.
 
 ![](Figures/Genetic_distance_at_different_scales.png)
 
-__Figure 16__ - Comparisons of distribution of pairwise distances of within-collection samples and non-within-collection samples in a) the original GBS dataset and b) a GBS dataset generated by replacing within-collection samples with resampled simulated clones. The density curve describes the distribution of pairwise distances of the non-within-collection samples and the vertical lines indicate the pairwise distances of within-collection samples or simulated clones. Red=S05--S06, Green=S09--S10, Blue=S16--S17, Cyan=S38--S39, Magenta=S43--S44--S46--S47--S48.  
+
+__Figure 13__ - Neighbor-joining Euclidean distance tree for _C. intricatum_ samples. Tip labels are colored based on geographic region. Nodes with numbers indicate bootstrap values >50.
+
+![](Figures/NJ_tree-Crep_unfiltered-boostrapped.png)
+
+
+__Figure 14__ - Minimum spanning network for _C. intricatum_ samples. Tip labels are colored based on geographic region.
+
+![](Figures/Minimum_spanning_network-Crep_unfiltered.png)
+![](Figures/Minimum_spanning_network-Crep_unfiltered-geographic.png)
+
+
+__Figure 15__ - Distribution of pairwise distances of within-collection samples and non-within-collection samples in a) the original GBS dataset and b) a GBS dataset generated after replacing within-collection samples with simulated clones. The density curve describes the distribution of pairwise distances of the non-within-collection samples and the vertical lines indicate the pairwise distances of within-collection samples or simulated clones. Red=S05--S06, green=S09--S10, blue=S16--S17, cyan=S38--S39, magenta=S43--S44--S46--S47--S48.  
 
 ![](Figures/Distribution_of_clonal_pairwise_distances.png)
+
+
+__Figure 16__ - Minimum spanning network for _C. intricatum_ samples using pairwise distance values adjusted to reflect uncertainty in distinguishing similar distances from each other and distinguishing the lowest distance values from those expected for genetically identical samples.
+
+![](Figures/Minimum_spanning_network-Crep_unfiltered-high_uncertainty.png)
+![](Figures/Minimum_spanning_network-Crep_unfiltered-high_uncertainty-geographic.png)
