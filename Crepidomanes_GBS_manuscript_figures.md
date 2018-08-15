@@ -65,7 +65,6 @@ __Figure 13__ - Neighbor-joining Euclidean distance tree for _C. intricatum_ sam
 
 __Figure 14__ - Minimum spanning network for _C. intricatum_ samples. Tip labels are colored based on geographic region.
 
-![](Figures/Minimum_spanning_network-Crep_unfiltered.png)
 ![](Figures/Minimum_spanning_network-Crep_unfiltered-geographic.png)
 
 
@@ -76,5 +75,14 @@ __Figure 15__ - Distribution of pairwise distances of within-collection samples 
 
 __Figure 16__ - Minimum spanning network for _C. intricatum_ samples using pairwise distance values adjusted to reflect uncertainty in distinguishing similar distances from each other and distinguishing the lowest distance values from those expected for genetically identical samples.
 
-![](Figures/Minimum_spanning_network-Crep_unfiltered-high_uncertainty.png)
 ![](Figures/Minimum_spanning_network-Crep_unfiltered-high_uncertainty-geographic.png)
+
+
+__Figure 17__ - Distribution of pairwise genetic distances for all 25 _C. intricatum_ samples. All distances involving S17, S36, S37, or S39 (red histogram) except one are higher than the mean pairwise genetic distance. The black histogram represents pairwise comparisons not involving one of those four samples.
+
+![](Figures/Genetic_distance-most_distant_samples.png)
+
+
+__Figure 18__ - Distribution of pairwise genetic distances for 21 _C. intricatum_ samples excluding the four most distant samples (S17, S36, S37, and S39). All pairwise distances in the lowest 5% of distances are comparisons between the eight samples that are suspected clones or very similar genotypes (S09, S10, S15, S16, S43, S46, S47, and S48). All pairwise distances between those eight samples (red histogram) are less than the mean pairwise genetic distance.
+
+![](Figures/Genetic_distance-most_similar_samples.png)
