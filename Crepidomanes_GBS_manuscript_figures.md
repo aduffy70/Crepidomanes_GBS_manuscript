@@ -60,7 +60,7 @@ __Figure 12__ - Genetic distance between _C. intricatum_ samples at different ge
 
 __Figure 13__ - Neighbor-joining Euclidean distance tree for _C. intricatum_ samples. Tip labels are colored based on geographic region. Nodes with numbers indicate bootstrap values >50.
 
-![](Figures/NJ_tree-Crep_unfiltered-boostrapped.png)
+![](Figures/NJ_tree-Crep_unfiltered-bootstrapped.png)
 
 
 __Figure 14__ - Minimum spanning network for _C. intricatum_ samples. Nodes are colored based on geographic region and node positions are suggestive of the relative positions of collection sites within each region. Thicker/darker lines represent smaller pairwise genetic distances.
