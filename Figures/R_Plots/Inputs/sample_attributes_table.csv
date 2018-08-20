@@ -1,0 +1,55 @@
+sample,state,site,site_code,collector,collection,collection_year,state_site_code,glaciated_site,long_sample_id,lifestage,collector_id,pcr_id,replicate_group,structure_id,structure_id2,structure_id_spp,low_reads,lon,lat,region
+S01,IL,Bell Smith Springs,BS,Duffy,D07002,2007,IL-BS,F,S01-IL-BS,gametophyte,Crepidomanes,Unknown,0,Unknown,Unknown,Unknown,T,-88.65615,37.51865,Illinois
+S02,IL,Burden Falls,BF,Duffy,D07008,2007,IL-BF,F,S02-IL-BF,gametophyte,Crepidomanes,Non-Crepidomanes,0,Non-Crepidomanes,Vandenboschia,Vandenboschia,F,-88.64259,37.56377,Illinois
+S03,IL,Sand Cave,SC,Duffy,D07011,2007,IL-SC,F,S03-IL-SC-1,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.64342,37.50093,Illinois
+S04,IL,Sand Cave,SC,Duffy,D07013,2007,IL-SC,F,S04-IL-SC-2,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,T,-88.64342,37.50093,Illinois
+S05,IL,Pounds Hollow,PH,Duffy,D07020,2007,IL-PH,F,S05-IL-PH-1a,gametophyte,Crepidomanes,Crepidomanes,1,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.27809,37.60255,Illinois
+S06,IL,Pounds Hollow,PH,Duffy,D07020,2007,IL-PH,F,S06-IL-PH-1b,gametophyte,Crepidomanes,Crepidomanes,1,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.27809,37.60255,Illinois
+S07,IL,Pounds Hollow,PH,Duffy,D07030,2007,IL-PH,F,S07-IL-PH-2,gametophyte,Crepidomanes,Crepidomanes,0,Unknown,Unknown,Unknown (Crepidomanes + Vandenboschia?),F,-88.27809,37.60255,Illinois
+S08,IL,Pounds Hollow,PH,Duffy,D07031,2007,IL-PH,F,S08-IL-PH-3,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.27809,37.60255,Illinois
+S09,IL,Garden of the Gods,GG,Duffy,D07032,2007,IL-GG,F,S09-IL-GG-1a,gametophyte,Crepidomanes,Crepidomanes,2,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.384,37.60468,Illinois
+S10,IL,Garden of the Gods,GG,Duffy,D07032,2007,IL-GG,F,S10-IL-GG-1b,gametophyte,Crepidomanes,Crepidomanes,2,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.384,37.60468,Illinois
+S11,IL,Fairy Cliff Cafe,FC,Duffy,D07033,2007,IL-FC,F,S11-IL-FC,gametophyte,Crepidomanes,Unknown,0,Non-Crepidomanes,Vandenboschia,Vandenboschia,F,-88.4418,37.58358,Illinois
+S12,IL,Giant City,GC,Duffy,D07041,2007,IL-GC,F,S12-IL-GC-1,gametophyte,Crepidomanes,Crepidomanes,0,Unknown,Unknown,Unknown,F,-89.18833,37.60121,Illinois
+S13,IL,Pomona Natural Bridge,PB,Duffy,D07042,2007,IL-PB,F,S13-IL-PB,gametophyte,Crepidomanes,Unknown,0,Unknown,Unknown,Unknown (Crepidomanes + Vandenboschia?),F,-89.34437,37.64812,Illinois
+S14,IL,Little Grand Canyon,LG,Duffy,D07044,2007,IL-LG,F,S14-IL-LG-1,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-89.39482,37.68087,Illinois
+S15,IL,Little Grand Canyon,LG,Duffy,D07045,2007,IL-LG,F,S15-IL-LG-2,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-89.39482,37.68087,Illinois
+S16,IL,Little Grand Canyon,LG,Duffy,D07046,2007,IL-LG,F,S16-IL-LG-3a,gametophyte,Crepidomanes,Crepidomanes,3,Crepidomanes,Crepidomanes,Crepidomanes,F,-89.39482,37.68087,Illinois
+S17,IL,Little Grand Canyon,LG,Duffy,D07046,2007,IL-LG,F,S17-IL-LG-3b,gametophyte,Crepidomanes,Crepidomanes,3,Crepidomanes,Crepidomanes,Crepidomanes,F,-89.39482,37.68087,Illinois
+S18,IL,Piney Creek Ravine,PC,Duffy,D07050,2007,IL-PC,F,S18-IL-PC,gametophyte,Crepidomanes,Non-Crepidomanes,0,Non-Crepidomanes,Vandenboschia,Vandenboschia,F,-89.6382,37.89052,Illinois
+S19,IN,Martin Co.,MC,Farrar,F1010,1965,IN-MC,F,S19-IN-MC,gametophyte,Crepidomanes,Unknown,0,Unknown,Unknown,Unknown,T,-86.821,38.691,Indiana
+S20,AR,Newton Co.,NE,Farrar,F1170,1965,AR-NE,F,S20-AR-NE-1,gametophyte,Vandenboschia,Unknown,0,Unknown,Unknown,Unknown (Crepidomanes + Didymoglossum?),F,-93.178,35.955,Arkansas
+S21,IL,Giant City,GC,Farrar,F1172-b,1965,IL-GC,F,S21-IL-GC-2,gametophyte,Crepidomanes,Crepidomanes,0,Unknown,Unknown,Unknown (Crepidomanes + Didymoglossum?),F,-89.18833,37.60121,Illinois
+S22,IL,Little Grand Canyon,LG,Farrar,F1174,1965,IL-LG,F,S22-IL-LG-4,gametophyte,Crepidomanes,Unknown,0,Unknown,Unknown,Unknown,F,-89.39482,37.68087,Illinois
+S23,AR,Newton Co.,NE,Farrar,F1176,1965,AR-NE,F,S23-AR-NE-2,gametophyte,Vandenboschia,Unknown,0,Non-Crepidomanes,Vandenboschia,Vandenboschia,T,-93.178,35.955,Arkansas
+S24,AL,Noccollulah Falls,NF,Farrar,F1188,1965,AL-NF,F,S24-AL-NF,gametophyte,Crepidomanes,Non-Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,T,-86.03073,34.03988,Alabama
+S25,NC,Glen Falls,GF,Farrar,F1998-1,1998,NC-GF,F,S25-NC-GF,gametophyte,Crepidomanes,Crepidomanes,0,Unknown,Unknown,Unknown,F,-83.23878,35.03119,Atlantic
+S26,AL,Guess Cave,GU,Farrar,F2002-1,2002,AL-GU,F,S26-AL-GU,gametophyte,Crepidomanes,Unknown,0,Non-Crepidomanes,Vandenboschia,Vandenboschia,F,-86.18445,34.81435,Alabama
+S27,IL,Jackson Hollow,JH,Farrar,F2005-1,2005,IL-JH,F,S27-IL-JH-1,gametophyte,Crepidomanes,Crepidomanes,0,Unknown,Unknown,Unknown,T,-88.70808,37.51177,Illinois
+S28,IL,Jackson Hollow,JH,Farrar,F2005-2,2005,IL-JH,F,S28-IL-JH-2,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.70808,37.51177,Illinois
+S29,AR,Greers Ferry Lake,GL,Farrar,F2006-1,2006,AR-GL,F,S29-AR-GL-1,sporophyte,Vandenboschia,Non-Crepidomanes,0,Non-Crepidomanes,Vandenboschia,Vandenboschia,F,-92.1203,35.5294,Arkansas
+S30,IL,Jackson Hollow,JH,Farrar,F2006-2,2006,IL-JH,F,S30-IL-JH-3,sporophyte,Vandenboschia,Non-Crepidomanes,0,Non-Crepidomanes,Vandenboschia,Vandenboschia,F,-88.70808,37.51177,Illinois
+S31,AR,Greers Ferry Lake,GL,Farrar,F2006-3,2006,AR-GL,F,S31-AR-GL-2,gametophyte,Vandenboschia,Unknown,0,Non-Crepidomanes,Vandenboschia,Vandenboschia,F,-92.1203,35.5294,Arkansas
+S32,IL,Giant City,GC,Farrar,F2006-4,2006,IL-GC,F,S32-IL-GC-3,gametophyte,Crepidomanes,Crepidomanes,0,Unknown,Unknown,Unknown,T,-89.18833,37.60121,Illinois
+S33,IL,Giant City,GC,Farrar,F2006-5,2006,IL-GC,F,S33-IL-GC-4,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-89.18833,37.60121,Illinois
+S34,GA,Stevens Co.,ST,Farrar,F8-10-76-5.5,1976,GA-ST,F,S34-GA-ST,gametophyte,Didymoglossum,Unknown,0,Crepidomanes,Crepidomanes,Crepidomanes,T,-83.301,34.553,Atlantic
+S35,PA,Pequea River,PR,Farrar,F81-10-12-2,1981,PA-PR,F,S35-PA-PR,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-76.35726,39.89504,Southeastern Pennsylvania
+S36,MA,Mt Toby,MT,Farrar,F81-10-16-2,1981,MA-MT,T,S36-MA-MT,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-72.53766,42.48811,Massachusetts
+S37,PA,Jennings EEC,JE,Farrar,F81-10-21-1,1981,PA-JE,T,S37-PA-JE-1,gametophyte,Crepidomanes,Unknown,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-80.01021,41.01114,Western Pennsylvania
+S38,PA,Jennings EEC,JE,Farrar,F81-10-21-2,1981,PA-JE,T,S38-PA-JE-2a,gametophyte,Crepidomanes,Crepidomanes,4,Crepidomanes,Crepidomanes,Crepidomanes,F,-80.01021,41.01114,Western Pennsylvania
+S39,PA,Jennings EEC,JE,Farrar,F81-10-21-2,1981,PA-JE,T,S39-PA-JE-2b,gametophyte,Crepidomanes,Unknown,4,Crepidomanes,Crepidomanes,Crepidomanes,F,-80.01021,41.01114,Western Pennsylvania
+S40,PA,Otter Creek,OC,Farrar,F81-9-22-17,1981,PA-OC,T,S40-PA-OC,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-76.38422,39.87673,Southeastern Pennsylvania
+S41,PA,Bushkill Falls,BK,Farrar,F81-9-26-1,1981,PA-BK,T,S41-PA-BK-1,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-75.00996,41.11744,Northeastern Pennsylvania
+S42,PA,Bushkill Falls,BK,Farrar,F81-9-26-5,1981,PA-BK,T,S42-PA-BK-2,gametophyte,Crepidomanes,Crepidomanes,0,Crepidomanes,Crepidomanes,Crepidomanes,F,-75.00996,41.11744,Northeastern Pennsylvania
+S43,IL,Hoouch Hollow,HH,Farrar,F82-1-6-3,1982,IL-HH,F,S43-IL-HH-1a,gametophyte,Crepidomanes,Crepidomanes,5,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.29989,37.51176,Illinois
+S44,IL,Hoouch Hollow,HH,Farrar,F82-1-6-3,1982,IL-HH,F,S44-IL-HH-1b,gametophyte,Crepidomanes,Unknown,5,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.29989,37.51176,Illinois
+S45,IL,Hoouch Hollow,HH,Farrar,F82-1-6-3,1982,IL-HH,F,S45-IL-HH-1c,gametophyte,Crepidomanes,Crepidomanes,5,Crepidomanes,Crepidomanes,Crepidomanes,T,-88.29989,37.51176,Illinois
+S46,IL,Hoouch Hollow,HH,Farrar,F82-1-6-3,1982,IL-HH,F,S46-IL-HH-1d,gametophyte,Crepidomanes,Crepidomanes,5,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.29989,37.51176,Illinois
+S47,IL,Hoouch Hollow,HH,Farrar,F82-1-6-3,1982,IL-HH,F,S47-IL-HH-1e,gametophyte,Crepidomanes,Crepidomanes,5,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.29989,37.51176,Illinois
+S48,IL,Hoouch Hollow,HH,Farrar,F82-1-6-3,1982,IL-HH,F,S48-IL-HH-1f,gametophyte,Crepidomanes,Crepidomanes,5,Crepidomanes,Crepidomanes,Crepidomanes,F,-88.29989,37.51176,Illinois
+S49,IL,Hoouch Hollow,HH,Farrar,F82-1-6-6,1982,IL-HH,F,S49-IL-HH-2,gametophyte,Crepidomanes,Unknown,0,Unknown,Unknown,Unknown,T,-88.29989,37.51176,Illinois
+S50,AR,Sand Gap,SG,Farrar,F82-3-12-5,1982,AR-SG,F,S50-AR-SG,gametophyte,Didymoglossum,Non-Crepidomanes,0,Non-Crepidomanes,Didymoglossum,Didymoglossum,F,-93.10566,35.71266,Arkansas
+S51,AR,Terrapin Branch,TB,Farrar,F82-3-13-1,1982,AR-TB,F,S51-AR-TB,gametophyte,Vandenboschia,Unknown,0,Non-Crepidomanes,Didymoglossum,Didymoglossum,T,-93.40861,35.84461,Arkansas
+S52,AR,Collier Spring,CS,Farrar,F82-3-8-1,1982,AR-CS,F,S52-AR-CS,gametophyte,Vandenboschia,Non-Crepidomanes,0,Non-Crepidomanes,Didymoglossum,Didymoglossum,F,-93.59568,34.48239,Arkansas
+S53,AL,Natural Bridge,NB,Farrar,F82-4-28-8,1982,AL-NB,F,S53-AL-NB,sporophyte,Didymoglossum,Non-Crepidomanes,0,Non-Crepidomanes,Didymoglossum,Didymoglossum,T,-87.614874,34.09297,Alabama
+S54,AL,Franklin Co.,FR,Farrar,F82-4-29-4,1982,AL-FR,F,S54-AL-FR,sporophyte,Vandenboschia,Unknown,0,Non-Crepidomanes,Vandenboschia,Vandenboschia,F,-87.62,34.39,Alabama
