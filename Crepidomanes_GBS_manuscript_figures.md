@@ -68,7 +68,7 @@ __Figure 14__ - Minimum spanning network for _C. intricatum_ samples. Nodes are 
 ![](Figures/Minimum_spanning_network-Crep_unfiltered-geographic.png)
 
 
-__Figure 15__ - Distribution of pairwise distances of within-collection samples and non-within-collection samples in a) the original GBS dataset and b) a GBS dataset generated after replacing within-collection samples with resampled, simulated clones. The density curve describes the distribution of pairwise distances of all 25 samples and the vertical lines indicate the pairwise distances of within-collection samples or simulated clones. Red=S05--S06, green=S09--S10, blue=S16--S17, cyan=S38--S39, magenta=S43--S44--S46--S47--S48.
+__Figure 15__ - Distribution of pairwise distances of within-collection samples and non-within-collection samples in a) the original GBS dataset and b) a GBS dataset generated after replacing within-collection samples with resampled, simulated clones. The density curve describes the distribution of pairwise distances of all 25 samples and the vertical lines indicate the pairwise distances of within-collection samples or simulated clones. Red=S05--S06, green=S09--S10, blue=S16--S17, cyan=S38--S39, orange=S43--S44--S46--S47--S48.
 
 ![](Figures/Distribution_of_clonal_pairwise_distances.png)
 
