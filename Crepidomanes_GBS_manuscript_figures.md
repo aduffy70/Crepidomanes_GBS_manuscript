@@ -73,6 +73,6 @@ __Figure 15__ - Distribution of pairwise distances of within-collection samples 
 ![](Figures/Distribution_of_clonal_pairwise_distances.png)
 
 
-__Figure 16__ - Distribution of pairwise genetic distances for all 25 _C. intricatum_ samples. Three overlapping histograms represent pairwise comparisons between any two of the eight most genetically similar samples (blue), comparisons between the four most genetically distant samples and all other samples (red), and all other pairwise comparisons (black).
+__Figure 16__ - Distribution of pairwise genetic distances for 25 _C. intricatum_ samples. Three overlapping histograms represent pairwise comparisons between any two of the eight most genetically similar samples (blue), comparisons between the four most genetically distant samples and all other samples (red), and all other pairwise comparisons (black).
 
 ![](Figures/Genetic_distance-most_distant_and_most_similar_samples.png)
