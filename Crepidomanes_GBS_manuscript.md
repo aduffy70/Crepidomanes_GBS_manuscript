@@ -166,35 +166,34 @@ Multiple genetically distant genotypes within five of the six sites represented 
 
 Sampling depth in previously glaciated and nearby unglaciated areas is not sufficient to make statistical comparisons of diversity or determine whether they were colonized following a stepping-stone or leading-edge pattern. The sample most geographically distant from other samples (S36 in Massachusetts) is also one of the most genetically distant from other samples, but the samples in glaciated areas in Pennsylvania are not similar to samples from the nearest non-glaciated sites included in this study. Samples within the two glaciated sites with more than one collection are not genetically similar, suggesting that these previously glaciated sites were colonized by propagules from multiple sites, by multiple propagules from a diverse site, or there has been post-colonization gene flow.
 
-{DELETE OR RECYCLE
+{DELETE
 All eight were from sites within 100km of each other, which is consistent with assumptions about limited dispersal distances of _C. intricatum_ gemmae.
 /DELETE}
 
 
 ## Evaluation of hypotheses for establishment and maintenance of _C. intricatum_ independent gametophyte populations
 
-Hypotheses for how independent gametophyte populations of _C. intricatum_ were established and reached their current distribution in Eastern North America (Table 4) can be categorized, first, by whether sporophytes and local spore dispersal were ever present in North America. Those hypotheses that include North American sporophytes can be further divided by when the sporophytes were in North America (anciently or recently and perhaps ongoing), and the hypotheses that do not include North American sporophytes can be divided based on when the propagules establishing the North American gametophytes populations arrived (again, anciently or recently and perhaps ongoing). Previous attempts to evaluate these competing hypotheses have been based on plausible yet untested assumptions (likely limited dispersal ability of gemmae), convincing yet not certain lack of evidence (failure to find sporophytes over several decades or produce them in culture), and compelling yet limited genetic data (chloroplast marker similarity to Asian _C. schmidtianum_). Here, we add information on the population genetics of _C. intricatum_ to the available evidence and re-examine the possible hypotheses.
+Hypotheses for how independent gametophyte populations of _C. intricatum_ were established and reached their current distribution in Eastern North America (Table 4) can be categorized, first, by whether sporophytes and local spore dispersal were ever present in North America. Those hypotheses that include North American sporophytes can be further divided by when the sporophytes were in North America (anciently or recently and perhaps ongoing), and the hypotheses that do not include North American sporophytes can be divided based on when the propagules establishing the North American gametophytes populations arrived (again, anciently or recently and perhaps ongoing).
 
-{DELETE
-It is impossible to make predictions of specific expected patterns of genetic variation for each of the hypotheses but generally, we can predict that asexual reproduction would result in groups of similar genotypes as somatic mutations accrue in lineages, whereas sexual reproduction has the potential to result in much less similar genotypes. So genetically similar gametophytes could potentially be asexual descendants of a single spore but gametophytes with genetically distant genotypes are likely descended from different spores.
+In the relatively small number of _C. intricatum_ samples included in this study we identified at least five, and perhaps 10 or more genetically distant genotypes, suggesting that the _C. intricatum_ gametophytes in North America are likely descended from many different spores. This does not seem consistent with hypotheses without spores present in North America. If _C. intricatum_ populations were established by presumably rare long-distance dispersal of spores from populations in Asia (or elsewhere outside North America) followed by only asexual reproduction, many similar genotypes could arise over time through somatic mutation but few more-distant genotypes should be present.
+
+Even in previously glaciated areas there appear to be gametophytes descended from more than one spore within the same site, suggesting that spore dispersal into these
+
+
+
+
+{DELETE?
+Previous attempts to evaluate these competing hypotheses have been based on plausible yet untested assumptions (likely limited dispersal ability of gemmae), convincing yet not certain lack of evidence (failure to find sporophytes over several decades or produce them in culture), and compelling yet limited genetic data (chloroplast marker similarity to Asian _C. schmidtianum_). Here, we add information on the population genetics of _C. intricatum_ to the available evidence and re-examine the possible hypotheses.
 /DELETE}
 
-In the relatively small number of _C. intricatum_ samples included in this study we identified at least five (perhaps 10 or more) genetically distant genotypes, suggesting that the _C. intricatum_ gametophytes in North America are likely descended from many different spores. Gametophytes within a site frequently appear to be descended from more than one spore--even a site in previously glaciated areas.
-
-
-
-{What can we predict about the patterns of genetic diversity under each of these hypotheses?
-
+{DELETE?
+What can we predict about the patterns of genetic diversity under each of these hypotheses?
 Pleistocene relicts: Some unknown pattern of diversity existed anciently. After sporophytes died out and spores stopped being produced, clonal competition and genetic drift would decrease within-site diversity and increase between-site diversity, whereas gemmae dispersal would have opposite effect. Mutation would be the only source of new genotypes, they would be similar to existing ones, and most likely be found close to where they originated. Glaciated sites would likely have reduced diversity due to founder effects and be most similar to populations near the glacial boundary.
-
 We have multiple genotypes in glaciated sites and those genotypes are different from each other and from samples from nearby sites. The NE Pennsylvania samples are each most similar to the widespread "clone" genotype in Southern Illinois--S42 in NE Penn has a genetic distance to S46 in S. Illinois that is within the range of genetic distance expected for identical clones.
-
 Cryptic or recently extinct sporophytes: Rare sexual reproduction and spore dispersal would counteract loss of genotypes due to clonal competition and genetic drift, and increase within-site diversity. Long distance dispersal would be more likely, increasing gene flow and reducing between-site diversity. Many new genotypes could be generated sexually, they could be quite different from the parental genotypes, and they could be distributed over greater distances. Diversity in glaciated sites could vary based on frequency of spore dispersal, but might still have reduced diversity if they are at the limits of the range.
-
 Ancient spore invasion: Patterns of diversity would depend on the number of introductions, the genetic variation present in the source, levels of gemmae dispersal post-invasion, and the mutation rate. A single introduction with subsequent asexual reproduction could lead to low levels of within and between-site diversity whereas multiple introductions from a diverse source could lead to complex patterns of variation. Diversity in glaciated sites would depend on these same factors but likely similar to that expected under the Pleistocene relicts hypothesis, since these sites would be colonized by gemmae after the ancient spore invasion.
-
 Separation of generations: Patterns of variation would depend on the same factors as in an ancient spore invasion but with presumably fewer new genotypes generated by mutation and possibly less difference between glaciated and non-glaciated sites, since they have as much opportunity to be established by invading spores as any other site.
-}
+/DELETE}
 
 ## Caveats and limitations
 
